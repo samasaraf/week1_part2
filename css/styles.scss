@@ -1,20 +1,21 @@
-$background-color: rgb( 0, 335, 335 );
-$text-color: rgb( 225, 200, 200 );
+$background-color: rgb( 225, 200, 225 );
+$text-color: rgb( 50, 50, 50 );
 
 body {
   color: $text-color;
   background: $background-color;
   text-align: left;
   font-family: 'Helvetica', 'Arial', sans-serif;
-  padding-top: 20px;
-  padding-right: 20px;
+  padding-top: 50px;
+  padding-right: 50px;
   padding-bottom: 0;
-  padding-left: 20px;
+  padding-left: 50px;
 
   h1 {
     color: $text-color;
     margin-top: 10px;
     margin-bottom: 15px;
+    text-align: center;
   }
 
   h2 {
@@ -27,14 +28,19 @@ body {
     color: $text-color;
     margin-top: 10px;
     margin-bottom: 0px;
+    text-align: center;
+
   }
 
   h4 {
     span{
-    background: yellow;
+    background: white;
+    border-radius: 200px;
+    font-size: 20px;
     color:$background-color;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: left;
   }
   color:red;
 
@@ -43,6 +49,7 @@ body {
   p {
     color: $text-color;
     padding-right: 30px;
+    text-align: center;
   }
 
   ul {
@@ -57,6 +64,9 @@ body {
   }
 
   img {
-    border-radius: 50px;
+    border-radius: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
